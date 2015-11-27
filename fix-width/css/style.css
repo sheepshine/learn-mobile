@@ -1,0 +1,182 @@
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+img,
+kbd,
+q,
+b,
+i,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: 400;
+}
+
+body {
+	line-height: 1;
+	background: url(../images/bg-ye.jpg) repeat-y;
+	background-size: 100% 100%;
+}
+
+:focus {
+	outline: 1;
+}
+
+nav ul {
+	list-style: none;
+}
+
+q {
+	quotes: none;
+}
+
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+/*解决文本折行问题*/
+section, p, div,
+h1, h2, h3, h4, h5, h6,
+.fix-break { 
+   background: tranparent url('about:blank');
+   word-break: break-all;
+}
+html,
+body {
+	height: auto;
+	width: 100%;
+	font-size: 10px;
+	background: url(../images/bg.jpg) repeat-y;
+	background-size: cover;
+	padding-bottom: 10px;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+.logo{
+	width: 96px;
+	height: 96px;
+	background: url(../images/logo.png) no-repeat;
+	background-size: cover;
+	margin: 26px auto 0;
+}
+.main{
+	width: 645px;
+	height: 550px;
+	display: block;
+	margin: 18px auto 0;
+}
+.warp{
+	width: 100%;
+	position: relative;
+}
+.rollbox{
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	margin: 0 auto;
+	width: 56%;
+	height: 34%;
+	background: #fff;
+}
+.need-konw{
+	width: 182px;
+	height: 52px;
+	background: url(../images/needtokone.png) no-repeat;
+	margin: 15px auto 9px;
+	background-size: cover;
+}
+h2,p{
+	font-size: 27px;
+	font-weight: 400;
+	color: #fff;
+	text-align: center;
+	line-height: 36px;
+}
+p.t{
+	width: 556px;
+	margin: 0 auto;
+	list-style: none;
+	text-align: left;
+	overflow: hidden;
+}
+p.t>b{
+	float: left;
+	font-weight: 800;
+}
+p.t>span{
+	width: 518px;
+	text-decoration: underline;
+	font-weight: 800;
+	display: block;
+	float: left;
+}
+p.t>span.nd{
+	text-decoration: none;
+	font-weight: 400;
+}
+li p{
+	
+}
+.ticket-konw{
+	display: block;
+	width: 341px;
+	height: 51px;
+	background: url(../images/ticketknow.png) no-repeat;
+	background-size: 100%;
+	margin: 16px auto;
+}
